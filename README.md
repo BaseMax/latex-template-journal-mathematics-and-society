@@ -16,6 +16,13 @@ Caching fonts:
 fc-cache -fv
 ```
 
+Confirm the font:
+
+```
+fc-list | findstr "Niloofar"
+fc-list | grep "XB Niloofar"
+```
+
 Build PDF:
 
 ```
