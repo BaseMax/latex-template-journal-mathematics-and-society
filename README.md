@@ -8,6 +8,8 @@ https://math-sci.ui.ac.ir/?lang=en
 
 ## Commands
 
+Install fonts located in `fonts/` by right-click and pressing on "For All users" and then you can confirm it by checking `C:\Windows\Fonts` directory.
+
 Caching fonts:
 
 ```
