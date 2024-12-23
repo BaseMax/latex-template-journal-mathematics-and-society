@@ -1,8 +1,12 @@
 # LaTeX Template for the Journal of Mathematics and Society
 
-The **Journal of Mathematics and Society** is dedicated to publishing research in the field of mathematical sciences. Its primary objectives are to promote the popularization of mathematics, familiarize the public with the history and philosophy of mathematics, and expand the knowledge of its applications. The journal covers a wide range of topics within mathematical sciences and related disciplines, such as the history and philosophy of science. It is published in **Persian**.
+A ready-to-use LaTeX template for submitting articles to the Journal of Mathematics and Society. It includes all necessary styles and fonts for research, review, and opinion pieces in mathematics and related fields. Simply install the fonts and compile the LaTeX file for submission.
 
 ![LaTeX Template for the Journal of Mathematics and Society](demo.jpg)
+
+## About the journal
+
+The **Journal of Mathematics and Society** is dedicated to publishing research in the field of mathematical sciences. Its primary objectives are to promote the popularization of mathematics, familiarize the public with the history and philosophy of mathematics, and expand the knowledge of its applications. The journal covers a wide range of topics within mathematical sciences and related disciplines, such as the history and philosophy of science. It is published in **Persian**.
 
 [Visit the Journal Website](https://math-sci.ui.ac.ir/?lang=en)
 
