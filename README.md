@@ -1,5 +1,7 @@
 # Latex template of Journal Mathematics and Society
 
+![Latex template of Journal Mathematics and Society](demo.jpg)
+
 Caching fonts:
 
 ```
