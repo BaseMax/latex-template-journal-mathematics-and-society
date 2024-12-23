@@ -1,33 +1,61 @@
-# Latex template of Journal Mathematics and Society
+# LaTeX Template for the Journal of Mathematics and Society
 
-The Journal of Mathematics and Society aims to publish papers in the field of mathematical sciences, with main goals of popularization of mathematics, familiarization with the history and philosophy of mathematics and expansion of  the knowledge of mathematical applications. The journal includes areas of mathematical sciences and related disciplines ( such as the history of science and philosophy of science) and is published in Persian. The audience of  the journal includes all the people of the society, in this way one of goals of this journal which is the generalization of mathematics can be achieved. From now on, the journal will accept related scientific articles (research, promotional, review, short, applied, translation, and point of view).
+The **Journal of Mathematics and Society** is dedicated to publishing research in the field of mathematical sciences. Its primary objectives are to promote the popularization of mathematics, familiarize the public with the history and philosophy of mathematics, and expand the knowledge of its applications. The journal covers a wide range of topics within mathematical sciences and related disciplines, such as the history and philosophy of science. It is published in **Persian**.
 
-![Latex template of Journal Mathematics and Society](demo.jpg)
+![LaTeX Template for the Journal of Mathematics and Society](demo.jpg)
 
-https://math-sci.ui.ac.ir/?lang=en
+[Visit the Journal Website](https://math-sci.ui.ac.ir/?lang=en)
 
-## Commands
+## Setup Instructions
 
-Install fonts located in `fonts/` by right-click and pressing on "For All users" and then you can confirm it by checking `C:\Windows\Fonts` directory.
+### 1. **Install Fonts**
 
-Caching fonts:
+To use the template, you need to install the required fonts. You can do this by:
 
-```
+- Right-clicking the font files in the `fonts/` directory.
+- Selecting **Install for all users**.
+- Confirm installation by checking the `C:\Windows\Fonts` directory.
+
+### 2. **Cache Fonts**
+
+After installing the fonts, you may need to rebuild the font cache. Use the following command to do so:
+
+```bash
 fc-cache -fv
 ```
 
-Confirm the font:
+### 3. **Confirm Font Installation**
 
-```
+To verify that the fonts are correctly installed, run one of the following commands:
+
+```bash
 fc-list | findstr "Niloofar"
+```
+
+or (on Linux/macOS):
+
+```bash
 fc-list | grep "XB Niloofar"
 ```
 
-Build PDF:
+### 4. **Build the PDF**
 
-```
+Once everything is set up, you can compile the LaTeX template into a PDF using the following command:
+
+```bash
 xelatex "Style File.tex"
 ```
 
+### License
 
-Copyright 2024 The Journal of Mathematics and Society
+The journal's audience includes the general public, making it an ideal platform for achieving its goal of disseminating mathematical knowledge. The journal will now accept a variety of scientific articles, including:
+
+- Research Articles
+- Promotional Pieces
+- Review Papers
+- Short Communications
+- Applied Mathematics
+- Translations
+- Opinion Pieces
+
+Copyright 2024, The Journal of Mathematics and Society
